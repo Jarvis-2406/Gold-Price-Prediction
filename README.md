@@ -70,7 +70,8 @@ Using `GridSearchCV`, we fine-tune hyperparameters such as the number of trees (
 By comparing the performance of Lasso Regression and RandomForest Regressor, we can determine the best model for predicting gold prices based on various features.
 
 
-
+## Conclusion
+In this analysis, we processed and visualized gold price data, addressing missing values, outliers, and feature scaling to enhance model performance. Trend analysis using moving averages revealed price fluctuations, while distribution plots and boxplots helped identify skewness and outliers. We implemented Lasso Regression and Random Forest Regressor, with Random Forest achieving the highest accuracy (R² = 0.9696), making it the preferred model for predicting gold prices due to its robustness in handling non-linearity and outliers. However, Lasso Regression remains valuable for feature selection and interpretability. Future improvements could involve exploring advanced models like XGBoost or ARIMA for time-series forecasting.
 
 
 
